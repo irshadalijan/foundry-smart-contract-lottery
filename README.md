@@ -1,3 +1,17 @@
+# Smart Contract Lottery - Random Raffle Contracts
+
+## About
+This code is to create proveable random smart contract lottery
+
+## What will it do
+- Users can enter by paying for a ticket
+    - The ticket fees is going to go to the winner during the draw
+- After the X period of time, the lottery will automatically draw a winner
+    - This will be done programatically
+- Using Chainlink VRF and Chainlink Automation
+    - Chainlink VRF -> Randomness
+    - Chainlink Automation -> Time based trigger
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
